@@ -1,0 +1,16 @@
+Integrate 2-factor completely into manager login (user cannot skip)
+User account should persist new revnum after sync (maybe not after add/del)
+user-settings (for two-factor, etc?) in cli
+Stronger Admin authorization checks everywhere
+Admin signs block/unblock user requests.
+Admin can view a list of blocked and unblocked users.
+KV store iterator
+KV store rehashing
+Authorization: connectedToServer, adminAuthorized, loggedInOffline
+  separate subroutine.
+SAND: multiple logins from different devices (add/rm/sync fails)
+SOTRC: enable NULL_SHA protocol
+SOTRC: contact table (2nd column checkmark), timeout, group chat, filetransfer
+SOTRC: a verif b, b delete,recreate, a starts chat with b via contacts.
+  b gets 2 windows.
+-

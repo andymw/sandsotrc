@@ -1,0 +1,14 @@
+Assuming java is version 1.8 (on the Raspberry Pi)
+
+To make sure all the crypto works, we need to download the
+Java Cryptography Extension (JCE) from Oracle:
+
+http://www.oracle.com/technetwork/java/javase/downloads/jce8-download-2133166.html
+
+The direct link should be:
+http://download.oracle.com/otn-pub/java/jce/8/jce_policy-8.zip
+
+Extract the zip, and install the java archives (copy the jar files) into:
+  $JAVA_HOME/jre/lib/security/
+
+($JAVA_HOME on the Pi happens to be /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/)

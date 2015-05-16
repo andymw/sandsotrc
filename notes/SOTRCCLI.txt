@@ -1,0 +1,67 @@
+CLI
+
+
+S e c u r e   O f f   T h e   R e c o r d   C h a t
+                  Alpha Release
+                    v 0.1
+
+Enter Username:
+Enter Password:
+
+>> help
+usage:
+start chat:		chat <<username[s]>>
+view invites:		invites
+view active chats:	active
+view history:		history  <- Are we keeping a local history?
+exit program:		exit
+
+>> chat andyw nikhilr dreww
+sending invite[s] to: andyw nikhilr dreww
+
+would you like to enter chat now? y or n
+[yes would take us to a chat no would bring us to enter another command]
+
+>> invites
+Invites from:
+0. otheruser1
+1. otheruser2
+Select a number which you would like to respond to?
+>> 0
+otheruser1 would like to chat, respond y to chat, n to cancel invitation:
+>> y
+would you like to enter chat now? y or n
+[repsonding no to invitation would need to send a negative response back to the inviter, yes (as shown above) would give the option to enter the chat or simply just accept the invite, which would then have the invite show up in active chats]
+
+>> active
+Active chats:
+0. andyw nikhilr dreww
+1. otheruser1
+Select a chat to enter, otherwise type back
+>> 0
+=============CHAT=================
+otheruser1
+at any time type 'leave()' to exit the chat, but leave it active
+or type 'quit()' to quit this chat.
+----------------------------------
+>> You there?
+otheruser1: yeah
+... chat continues
+>> quit()
+You are terminating this chat. Are you sure you want to quit? y or n
+>> y
+
+>> active
+Active Chats:
+0. andyw nikhilr dreww
+Select a chat to enter, otherwise type back
+>> back
+
+>> history
+[We will talk about this what functionality if any we have here]
+
+>> exit
+Exiting...
+
+DONE
+

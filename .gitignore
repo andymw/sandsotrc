@@ -1,0 +1,32 @@
+# LaTeX
+*.aux
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.out
+
+# PDFs
+*.pdf
+
+# Java
+javadoc
+bin
+*.class
+
+# Vim
+*.swp
+
+# GUI editing
+*.form
+
+*.zip
+
+# test folder
+!/test/
+/test/*
+!/test/README.txt
+
+# data folder
+!/data/
+/data/*
+!/data/README.txt
